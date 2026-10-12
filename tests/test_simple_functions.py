@@ -19,7 +19,6 @@ class TestSimpleFunctions:
         assert sin(30) == -0.9880316240928618
         assert sin(90) == 0.8939966636005579
 
-    
     @pytest.mark.parametrize('number, expected', [
         (5, 120),
         (3, 6),
